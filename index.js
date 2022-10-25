@@ -1,8 +1,8 @@
-import express from 'express'
-import cors from 'cors'
-import UserRouter from './routers/UserRouter.js'
-import ConnectToDB from './config/DB.js'
-import dotenv from 'dotenv'
+import express from "express";
+import cors from "cors";
+import UserRouter from "./routers/UserRouter.js";
+import ConnectToDB from "./config/DB.js";
+import dotenv from "dotenv";
 import { createServer } from "http";
 import { ConnectSocket } from "./config/Socket.js";
 import cloudinary from "./config/Cloudinary.js";
